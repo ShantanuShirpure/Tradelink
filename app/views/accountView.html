@@ -1,0 +1,28 @@
+﻿<h3>{{count}} Records Found</h3>
+<table class="table table-striped table-bordered table-hover">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Security Description</th>
+            <th>Price</th>
+            <th>Client Short Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr data-ng-repeat="account in accounts">
+            <td>
+                {{ account.accountID }}
+            </td>
+            <td>
+                {{ account.securityDescription }}
+            </td>
+            <td>
+                {{ account.price }}
+            </td>
+            <td>
+                {{account.clientShortName}}
+            </td>
+        </tr>
+    </tbody>
+</table>
+

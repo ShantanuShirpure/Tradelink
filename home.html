@@ -1,0 +1,117 @@
+<!doctype html>
+<html data-ng-app="AngularTradelink">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Tradelinks</title>
+    <!--load Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="content/css/home.css">
+    <link rel="stylesheet" type="text/css" href="content/css/ng-grid.min.css">
+</head>
+<body>
+	<header class="header">
+		<div id="logo"><img alt="logo" src="content/images/rbclogo.jpg"></div>
+		<div id="tradeLink">
+			<h1>TradeLink</h1>
+			<ul class="main-navigation">
+				<li><button>Account View</button></li>
+				<li><button>Quick Order</button></li>
+				<li><button>Account View</button></li>
+				<li><button>IA code view</button></li>
+			</ul>
+		
+		</div>
+		<div id="outerDiv">
+			<div id="triangle"></div>
+			<div id="darkBlueTriangle"></div>
+		</div>
+		<div id="user-info">
+			<div class="user-name">
+				<ul>
+					<li>Welcome Horris, Walkers</li>
+					<li>S</li>
+					<li>Q</li>
+				</ul>
+			</div>
+			<div id="user-details">
+					<ul>
+						<li>270-2588-5425-CAD</li>
+						<li>123-35885</li>
+					</ul>
+			</div>
+		</div>
+	</header>
+	
+	<div class="container">
+		<aside>
+			<nav>
+				<ul>
+					<li id="account"><a href="#/accountView"><span class="icon"></span><span>Account View</span></a></li>
+					<li id="code"><a href="#/default"><span class="icon"></span><span>IA Code View</span></a></li>
+					<li id="fixed"><span class="icon"></span><span>Fixed Income</span></li>
+					<li id="fx"><span class="icon"></span><span>FX</span></li>
+					<li id="new-order"><span class="icon"></span><span>New Order</span></li>
+					<li id="bust"><span><span class="icon"></span>Bust a Trade</span></li>
+					<li id="order-enq"><span class="icon"></span><span>Order Enquiry</span></li>
+					<li id="trade"><span class="icon"></span><span>Trade Allocation</span></li>
+				</ul>
+			</nav>
+		</aside>
+		<section class="trade-link-container">
+			<div class="financial-asset">
+				<ul>
+					<li class="market-value">Market Value<br/><span>$382,106,697.31</span></li>
+					<li class="cash-balance">Cash Balance<br/><span>$43,238,708.78</span></li>
+					<li class="margin">Margin<br/><span>$147,958,277.00</span></li>
+				</ul>
+			</div>
+			<div id="accounts-container">
+				<ul>
+					<li>4 Accounts</li>
+					<li>Favorites</li>
+					<li>Bulk Accounts</li>
+				</ul>
+			</div>
+		</section>
+		<section class="account-details">
+			<div class="account-tabs">
+				<ul>
+					<li><span>Positions</span></li>
+					<li>DRIP Status</li>
+					<li>Activity</li>
+				</ul>
+				<div class="tab-content">
+                    <div data-ng-view="">
+                        <!--All the views/partials load here-->
+                    </div>
+					
+				</div>
+			</div>
+		</section>
+		
+		
+	</div>
+
+    <!-- 3rd party libraries -->
+
+    <script type="text/javascript" src="scripts/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="scripts/angular.min.js"></script>
+    <script type="text/javascript" src="scripts/angular-route.min.js"></script>
+    <script type="text/javascript" src="scripts/angular-local-storage.min.js"></script>
+    <script type="text/javascript" src="scripts/ng-grid.min.js"></script>
+    <script type="text/javascript" src="scripts/loading-bar.min.js" ></script>
+    
+    
+
+    <!-- Load app main script -->
+    <script type="text/javascript" src="app/app.js"></script>
+    <!-- Load services -->
+    <script type="text/javascript" src="app/services/accountViewService.js"></script>
+    <!-- Load controllers -->
+    <script type="text/javascript" src="app/controllers/accountViewController.js"></script>
+    <script type="text/javascript" src="app/controllers/defaultController.js"></script>
+   
+
+    
+</body>
+</html>

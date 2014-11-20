@@ -1,0 +1,253 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+aside{
+float:left;
+}
+body ul li {
+	list-style-type: none;	
+}
+#logo{
+	float: left;	
+}
+#logo img {
+	width: 55px;
+height: 70px;
+}
+.header{
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 70px;
+	}
+#tradeLink{
+	float: left;
+	background-color: blue;
+	width: 60%;
+	height: 66px;
+	color: white;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+
+#tradeLink h1 {
+margin: 14px auto;
+float: left;
+}
+
+#tradeLink .main-navigation {
+	float: right;
+	margin: 20px auto;
+}
+
+#tradeLink .main-navigation li {
+	float: left;
+}
+
+#tradeLink .main-navigation li button {
+	border: 1px solid #000;
+	background: #fff;
+	color: blue;
+}
+
+#triangle{
+	float:left;
+	
+border-bottom: 66px solid blue;
+border-right: 66px solid white;
+}
+#darkBlueTriangle{
+	float: left;
+position: absolute;
+margin-left: 20px;
+margin-top: 20px;
+border-top: 45px solid #11117E;
+border-left: 46px solid blue;
+}
+#outerDiv{
+	float: left;
+}
+#user-details{
+	background-color: #11117E;
+width: 40%;
+height: 46px;
+margin-top: 20px;
+position: absolute;
+z-index: -1;
+right: 0;
+}
+
+#user-details ul {
+	float: right;
+	color: #fff;
+	margin: 4px auto;
+}
+
+#user-details ul li {
+	text-align: right;
+}
+
+#user-info .user-name li {
+	float: left;
+}
+
+.container {
+	width: 100%;
+	float: left;
+}
+
+.container nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+.container nav ul li {
+	color: #fff;
+	height: 105px;
+	width: 56px;
+	padding-left: 34px;
+	padding-right: 34px;
+	background-color: #00123c;
+	border-right: 1px solid #2d3c5e;
+	border-bottom: 1px solid #3d5262;
+} 
+
+.container nav ul li span {
+display: block;
+text-align: center;
+}
+
+.container nav ul li .icon {
+width: 57px;
+height: 37px;
+}
+#account .icon {
+background: url(sprite.png) 4px 96px;
+}
+#code .icon {
+background: url(sprite.png) -64px 96px;
+}
+#fixed .icon {
+background: url(sprite.png) -127px 96px;
+}
+#fx .icon {
+background: url(sprite.png) -189px 96px;
+}
+#new-order .icon {
+background: url(sprite.png) -250px 96px;
+}
+#bust .icon {
+background: url(sprite.png) -310px 96px;
+}
+#order-enq .icon {
+background: url(sprite.png) -379px 96px;
+}
+#trade .icon {
+background: url(sprite.png) -449px 96px;
+}
+.trade-link-container{
+margin:0;
+padding:0;
+float: left;
+}
+
+.financial-asset {
+	float: left;
+}
+.financial-asset ul{
+float: left;
+margin: 0;
+padding: 0;
+}
+
+.trade-link-container .financial-asset li{
+float:left;
+width: 200px;
+line-height: 25px;
+}
+.trade-link-container .financial-asset li:last-child{
+margin-right:20px;
+}
+.market-value{
+color:#0034aa;
+padding:25px;
+background-color:#e8f4e6;
+}
+.market-value span{
+color:#00aa77;
+font-size: 25px;
+}
+.cash-balance{
+color:#0034aa;
+padding:25px;
+background-color:#fff1e5;
+}
+.cash-balance span{
+color:#aa1c00;
+font-size: 25px;
+}
+.margin{
+color:#0034aa;
+padding:25px;
+background-color:#e1e9fc;
+}
+.margin span{
+color:#142d40;
+font-size: 25px;
+}
+#accounts-container{
+float:left;
+}
+#accounts-container ul{
+margin:0;
+padding:0;
+}
+#accounts-container li{
+background-color: #dadada;
+padding: 6px;
+margin-bottom: 4px;
+border-radius: 5px;
+}
+
+.account-details {
+	float: left;
+}
+
+.account-tabs ul{
+float: left;
+padding: 15px;
+}
+
+.account-tabs ul li {
+	height: 37px;
+	float: left;
+	margin-right: 1px;
+	background: blue;
+color: #fff;
+border-radius: 4px 4px 0 0;
+}
+
+.account-tabs ul li:hover {
+	background: yellow;
+}
+
+.tab-content {
+	width: 850px;
+	height: 500px;
+	position: relative;
+left: 15px;
+top: 67px;
+border: 1px solid blue;	
+}
+
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    height: 100%
+}
+
+
+
+
+
+
+

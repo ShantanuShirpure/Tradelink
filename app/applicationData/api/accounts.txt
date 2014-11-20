@@ -1,0 +1,56 @@
+﻿ [
+        {
+            "accountID": "270-2844-20-CAD",
+            "securityDescription": "Canadian Imperial Bank of Commerce",
+            "price": "$99.65",
+            "clientShortName": "Trading-QA-1"
+        },
+        {
+            "accountID": "270-2844-20-CAD",
+            "securityDescription": "Texas Capital Bancshares Inc 6.5% subordinate notes due 2042",
+            "price": "$99.65",
+            "clientShortName": "Trading-QA-1"
+        },
+        {
+            "accountID": "270-2844-20-CAD",
+            "securityDescription": "Canadian Imperial Bank of Commerce",
+            "price": "$99.65",
+            "clientShortName": "Trading-QA-1"
+        },
+        {
+            "accountID": "270-2844-20-CAD",
+            "securityDescription": "Texas Capital Bancshares Inc 6.5% subordinate notes due 2042",
+            "price": "$99.65",
+            "clientShortName": "Trading-QA-1"
+        },
+        {
+            "accountID": "270-2844-20-CAD",
+            "securityDescription": "Canadian Imperial Bank of Commerce",
+            "price": "$99.65",
+            "clientShortName": "Trading-QA-1"
+        },
+        {
+            "accountID": "270-2844-20-CAD",
+            "securityDescription": "Texas Capital Bancshares Inc 6.5% subordinate notes due 2042",
+            "price": "$99.65",
+            "clientShortName": "Trading-QA-1"
+        },
+        {
+            "accountID": "270-2844-20-CAD",
+            "securityDescription": "Canadian Imperial Bank of Commerce",
+            "price": "$99.65",
+            "clientShortName": "Trading-QA-1"
+        },
+        {
+            "accountID": "270-2844-20-CAD",
+            "securityDescription": "Texas Capital Bancshares Inc 6.5% subordinate notes due 2042",
+            "price": "$99.65",
+            "clientShortName": "Trading-QA-1"
+        },
+        {
+            "accountID": "270-2844-20-CAD",
+            "securityDescription": "Canadian Imperial Bank of Commerce",
+            "price": "$99.65",
+            "clientShortName": "Trading-QA-1"
+        }
+    ]
